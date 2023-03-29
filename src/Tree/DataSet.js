@@ -12,12 +12,12 @@ const DataSet = {
     { name: 'expand', type: 'boolean' },
     { name: 'parentId', type: 'number' },
   ],
-transport: {
-  read: {
-    url: 'https://www.fastmock.site/mock/423302b318dd24f1712751d9bfc1cbbc/mock/tree',
-          method: 'post',
-  }
-},
+  transport: {
+    read: {
+      url: 'https://www.fastmock.site/mock/423302b318dd24f1712751d9bfc1cbbc/mock/tree',
+      method: 'post',
+    }
+  },
   events: {
   // 这里新增的事件与下面的checkable配合，当一个节点被选中时，就会触发下面的事件
     select: ({ record, dataSet }) => console.log('select', record, dataSet),
