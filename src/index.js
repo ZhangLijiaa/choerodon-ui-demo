@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "choerodon-ui/lib/configure";
 import './index.css';
-import App from './App';
+
+// import App from './Table';
+// import App from './TablePro';
+// import App from './Form/Form';
+import App from './Tree/Tree';
 
 import { overwriteDefaultConfig } from 'choerodon-ui/dataset';
 import defaults from 'choerodon-ui/lib/configure/default';
